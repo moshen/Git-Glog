@@ -41,19 +41,20 @@ Please see: `man git-glog`
 
 git-glog will attempt to read your git settings for the following:
 
-*   glog.dir
+*   `glog.dir`
+    
     The directory to store and read ascii gravatars from.
     Default is `$HOME/.git-glog/`
     
-        `git config --global --add glog.dir $HOME/.git-glog`
+        git config --global --add glog.dir $HOME/.git-glog
     
     To take a peek at the stored ascii gravatars, try:
     
-        `cat $(git config --get glog.dir)/* | gunzip | less -R`
+        cat $(git config --get glog.dir)/* | gunzip | less -R
     
     or
     
-        `cat ~/.git-glog/* | gunzip | less -R`
+        cat ~/.git-glog/* | gunzip | less -R
 
 
 ## EXAMPLES
