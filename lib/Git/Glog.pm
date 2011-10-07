@@ -19,7 +19,8 @@ our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
-Git::Glog contains the script L<git-glog> which 
+Git::Glog contains the script L<git-glog>, which is where all the action
+happens.  Go check it out.
 
 =head1 AUTHOR
 
@@ -31,8 +32,6 @@ Please report any bugs directly to me, or through the web interface
 at L<https://github.com/moshen/Git-Glog/issues>.  
 I will be notified, and then you'll automatically be notified of progress 
 on your bug as I make changes.
-
-
 
 
 =head1 SUPPORT
