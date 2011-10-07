@@ -19,7 +19,7 @@ my $builder = Module::Build->new(
         'Compress::Zlib' => 0,
         'LWP::UserAgent' => 0,
         'Image::Term256Color' => 0.03,
-        'perl' => 5.006,
+        'perl' => 5.008,
     },
     add_to_cleanup      => [ 'Git-Glog-*' ],
     create_makefile_pl => 'traditional',
