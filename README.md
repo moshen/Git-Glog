@@ -70,6 +70,13 @@ git may complain of a non-zero exit code if git-glog does not complete.
 This will probably occur if the log is generated from a large repository or
 is left completely open ended ( no from... to ).
 
+Right now the output is piped to `less -R` ( when STDOUT is a tty ). FYI.
+
+
+## WHY ON EARTH WOULD YOU MAKE THIS?
+
+Because I thought it would be fun.  It was.
+
 
 ## SUPPORT AND DOCUMENTATION
 
