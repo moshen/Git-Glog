@@ -76,7 +76,7 @@ L<Git!|http://git-scm.com/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 Colin
+Copyright 2011 Colin Kennedy
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
